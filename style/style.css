@@ -1,9 +1,18 @@
 * {
     margin: 100px;
-    height: 50px;
+    box-sizing: border-box;
   
 }
 body {
+    background: black;
+    color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: bisque;
+}
+/*ID=CONTAINER */
+#container {
+    margin-top: 100px;
+    width: 80%;
+    max-width: 400px;
+    margin-inline: auto;
 }
